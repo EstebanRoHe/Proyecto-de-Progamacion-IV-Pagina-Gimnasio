@@ -1,0 +1,395 @@
+body{
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.m{
+    position: fixed;
+}
+
+.principal nav ul{
+
+    padding: 0rem;
+    margin: 0;
+
+
+}
+.principal nav li{
+
+    border: 0px solid red;
+    margin: 0.5rem;
+    text-align: center;
+    display: inline-block;
+    width: 8rem;
+}
+
+
+.principal nav a{
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: #a9abb1;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+    font-weight: bold;
+
+}
+nav a:hover{
+    color: #505666;
+
+}
+
+nav ul{
+    position: absolute;
+}
+.servicios ul li {
+    list-style: none;
+    float: left;
+
+}
+.servicios ul li a {
+    display: block;
+    text-decoration: none;
+
+}
+.servicios ul{
+    display: none;
+
+}
+
+nav li:hover > ul {
+    display: block;
+}
+
+
+.login{
+    border: 0px solid blue;
+    margin-left: 90%;
+    position: fixed;
+    list-style: none;
+    margin-top: 0.8rem;
+}
+
+.login li{
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: #272B36;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.login2 ul a {
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: #c1c1c1;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    border: 0px solid yellow;
+    background: none;
+}
+.login2 ul button{
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: #c1c1c1;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+
+    display: block;
+    text-decoration: none;
+    border: 0px solid yellow;
+    background: none;
+}
+
+.btnlogin{
+
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 3px solid #041a49;
+    background-color: rgba(4, 54, 99, 0.829);
+    border-radius: 10px;
+    color: #a9abb1;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.login2 a:last-child:hover{
+    color: #414141;
+}
+
+.login2 button:hover{
+    cursor: pointer;
+    color: #414141;
+}
+
+
+.login ul{
+    position: absolute;
+}
+.login2 ul li {
+    list-style: none;
+    float: left;
+}
+
+.login2 ul{
+    display: none;
+}
+
+.login2 li{
+    margin-left: -3rem;
+
+}
+
+.login li:hover > ul {
+    display: block;
+}
+
+
+.login2 button{
+    margin-left: 0rem;
+    
+
+}
+
+
+
+
+
+.primero{
+    background-color: aqua;
+
+}
+nav ul{
+    position: absolute;
+}
+.servicios ul li {
+    list-style: none;
+    float: left;
+
+}
+.servicios ul li a {
+    display: block;
+    text-decoration: none;
+
+}
+.servicios ul{
+    display: none;
+
+}
+
+nav li:hover > ul {
+    display: block;
+}
+
+
+.segundo{
+    margin: 5rem 0rem 0rem 0rem;
+    display: flex;
+    padding-bottom: 1.5rem;
+}
+.agregarS{
+    margin-top: 5.5rem;
+}
+h1{
+    text-align: center;
+}
+.eliminarS{
+    margin: 0rem 8rem 0rem 10rem ;
+}
+.eliminarS h1{
+    color: white;
+}
+
+.modificarS{
+    margin-top: 5.5rem;
+}
+.segundo{
+    border: 3px solid black;
+    display: flex;
+    padding-bottom: 2rem;
+    padding: 1rem;
+}
+
+.segundo form{
+    background-color: rgba(255, 255, 255, 0.418);
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 1rem 1rem 0rem 1rem;
+    font-size: 1.5rem;
+}
+
+.segundo form input ,select{
+    font-size: 1.2rem;
+}
+
+button{
+    margin: 1rem 12rem;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+.tercero{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    padding: 1.5rem 0rem;
+    color: white;
+    padding-bottom: 2rem;
+
+}
+
+.cuarto{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    display: flex;
+    padding-bottom: 2rem;
+    padding: 1rem;
+}
+.cuarto form{
+    background-color: rgba(255, 255, 255, 0.418);
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 1rem 1rem 0rem 1rem;
+    font-size: 1.5rem;
+}
+
+.cuarto form input ,select{
+    font-size: 1.2rem;
+}
+.eliminarCT{
+    margin: 0rem 8rem 0rem 10rem ;
+}
+
+.quinto{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    padding: 1.5rem 0rem;
+    color: white;
+}
+.sexto{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    display: flex;
+
+    padding-bottom: 2rem;
+    padding: 1rem;
+
+}
+.sexto form{
+    background-color: rgba(255, 255, 255, 0.418);
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 1rem 1rem 0rem 1rem;
+    font-size: 1.5rem;
+}
+
+.sexto form input ,select{
+    font-size: 1.2rem;
+}
+.eliminarRS{
+    margin: 0rem 8rem 0rem 10rem ;
+}
+.setimo{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    color: white;
+    padding: 1.5rem 0rem;
+}
+
+.octavo{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    display: flex;
+    padding-bottom: 2rem;
+    padding: 1rem;
+
+
+}
+.octavo form{
+    background-color: rgba(255, 255, 255, 0.418);
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 1rem 1rem 0rem 1rem;
+    font-size: 1.5rem;
+}
+
+.octavo form input ,select{
+    font-size: 1.2rem;
+}
+.eliminarMO{
+    margin: 0rem 8rem 0rem 10rem ;
+}
+
+.noveno{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    color:white;
+    padding: 1.5rem 0rem;
+}
+.decima{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    display: flex;
+    padding-bottom: 2rem;
+    padding: 1rem;
+}
+.decima form{
+    background-color: rgba(255, 255, 255, 0.418);
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 1rem 1rem 0rem 1rem;
+    font-size: 1.5rem;
+}
+
+.decima form input ,select{
+    font-size: 1.2rem;
+}
+.eliminarCD{
+    margin: 0rem 8rem 0rem 10rem ;
+}
+.undecima{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    color: white;
+    padding: 1.5rem 0rem;
+}
+.duodecima{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    display: flex;
+    padding-bottom: 2rem;
+    padding: 1rem;
+}
+.duodecima form{
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 1rem 1rem 0rem 1rem;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.418);
+}
+
+.duodecima form input ,select{
+    font-size: 1.2rem;
+}
+.eliminarhis{
+    margin: 0rem 8rem 0rem 10rem ;
+}

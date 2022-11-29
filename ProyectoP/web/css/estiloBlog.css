@@ -1,0 +1,301 @@
+
+body{
+  margin: 0%;
+}
+.primero{
+    border: 0.01px solid rgba(240, 248, 255, 0);
+    margin-bottom: 5rem;
+     
+}
+.m{
+    position: fixed;
+}
+.principal nav ul{
+    
+    padding: 0rem;
+    margin: 0;
+  
+    
+    }
+.principal nav li{
+    
+    border: 0px solid red;
+    margin: 0.5rem;
+    text-align: center;
+    display: inline-block;
+    width: 8rem;
+    }
+
+  
+.principal nav a{
+text-decoration: none;/*quita el estilo del enlace, subrayado*/
+font-size: 1.5rem;
+color: #c1c1c1;   /*color: #5b647a;*/
+border: 0px solid rgb(0, 0, 0);
+display: block;
+padding: 0.5rem;
+font-weight: bold;
+
+}
+nav a:hover{
+    color: #a9abb1;
+}
+
+nav ul{
+position: absolute;
+}
+.servicios ul li {
+ list-style: none;
+ float: left;
+
+}
+.servicios ul li a {
+    display: block;
+    text-decoration: none;
+
+   }
+.servicios ul{
+    display: none;
+    
+}   
+
+nav li:hover > ul {
+   display: block;
+}
+
+
+
+.login{
+    border: 0px solid blue;
+    margin-left: 90%;
+    position: fixed;
+    list-style: none;
+    margin-top: 0.8rem;
+}
+
+.login li{
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: #272B36;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+    font-weight: bold;  
+}
+
+.login2 ul a {
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: #c1c1c1;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+    font-weight: bold;  
+    display: block;
+    text-decoration: none;
+    border: 0px solid yellow;
+    background: none;
+}
+.login2 ul button{
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: #c1c1c1;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+   
+    display: block;
+    text-decoration: none;
+    border: 0px solid yellow;
+    background: none;
+}
+
+.btnlogin{
+
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 3px solid #041a49;
+    background-color: rgba(4, 54, 99, 0.829);
+    border-radius: 10px;
+    color: #a9abb1;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.login2 a:last-child:hover{
+   color: #414141;
+}
+
+.login2 button:hover{
+    cursor: pointer;
+    color: #414141;
+}
+
+
+.login ul{
+    position: absolute;
+}
+.login2 ul li {
+    list-style: none;
+    float: left;
+}
+
+.login2 ul{
+    display: none; 
+}   
+
+.login2 li{
+    margin-left: -3rem;
+}   
+
+.login li:hover > ul {
+    display: block;
+}
+ 
+.login2 button{
+     margin-left: -1.5rem;
+   
+}
+
+
+
+.segundo{
+   
+  
+    margin: 0rem 0rem 4rem 0rem;
+   background-color: bisque;
+}
+
+
+.tercero{
+ display: flex;
+ background-color:rgba(4, 55, 99, 0.479);
+  padding: 1rem;
+  text-align: center;
+  width: 40rem;
+ margin: 1.5% 0% 1.5% 30%;
+ border-radius: 10px;
+ border: 1.5px solid black;
+ color:white;
+}
+.tercero a{
+    color: rgb(214, 127, 211);
+}
+.tercero img{
+    opacity:0.8;
+    filter:alpha(opacity=20);
+    border: 0.5px solid black;
+}
+.cuarto{
+    display: flex;
+   background-color:rgba(68, 75, 63, 0.521);
+    padding: 1rem;
+    text-align: center;
+    width: 40rem;
+    margin: 0% 0% 1.5% 30%;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    color:white;
+}
+.cuarto a{
+    color: rgb(214, 127, 211);
+}
+.cuarto  img{
+    opacity:0.8;
+    filter:alpha(opacity=20);
+    border: 0.5px solid black;
+}
+.quinto{
+    display: flex;
+    background-color:rgba(4, 55, 99, 0.479);
+    padding: 1rem;
+    text-align: center;
+    width: 40rem;
+    margin: 0% 0% 1.5% 30%;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    color:white;
+}
+.quinto a{
+    color: rgb(214, 127, 211);
+}
+.quinto  img{
+    opacity:0.8;
+    filter:alpha(opacity=20);
+    border: 0.5px solid black;
+}
+.sexta{
+    display: flex;
+    background-color:rgba(68, 75, 63, 0.521);
+    padding: 1rem;
+    text-align: center;
+    width: 40rem;
+    margin: 0% 0% 1.5% 30%;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    color:white;
+}
+.sexta a{
+    color: rgb(214, 127, 211);
+}
+.sexta  img{
+    opacity:0.8;
+    filter:alpha(opacity=20);
+    border: 0.5px solid black;
+}
+
+.Ultimo_folmulario{
+    display: flex;
+    justify-content: center;
+    background-color:#191919;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color:#858585;
+}
+.segundo_folmulario{
+    width: 50rem;
+    margin-left: 23rem;
+  
+}
+.segundo_folmulario form{
+    display: block;
+    width: 40rem;
+    padding-left: 1.5rem;
+ 
+}
+.segundo_folmulario input:not([type="submit"]),select, textarea{
+width: 30rem;
+margin: 0.5rem 0 0.5rem 0;
+height: 2rem;
+}
+
+.primero_folmulario{
+    margin-right: 1rem;
+   
+   
+}
+footer{
+    text-align: center;
+    background-color:#333333;
+    color: white;
+    padding: 0.5rem;
+}
+
+.btnenviar{
+    font-size: 1.4rem;
+ height: 2rem;
+ width: 10rem;
+ border-radius: 10px;
+
+}
+.btnenviar:hover{
+    color: rgb(113, 112, 114);
+    background-color: #272B36;
+}
+.redes{
+    list-style: none;
+    display: flex;
+}
+.redes a{
+   margin-right: 0.5rem;
+}

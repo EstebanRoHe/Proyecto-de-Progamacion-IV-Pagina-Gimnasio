@@ -1,0 +1,59 @@
+
+
+*{
+    padding: 0px;
+    margin: 0%;
+ 
+}
+body{
+    background-color: aquamarine;
+}
+.m{
+    position: fixed;
+}
+.formulario{
+ margin: 10rem auto;
+ text-align: center;
+ justify-content: space-between;
+ font-size: 1.5rem;
+ border: 0.5px solid  rgba(4, 54, 99, 0.829);
+ width: 600px;
+background-color:#050505b2;
+border-radius: 5px;
+color: white;
+}
+
+.tabla{
+    margin: 0 20% 0 20%;
+
+}
+
+table {
+    border-collapse:separate;
+    border-spacing: 1rem;
+    
+}
+table input{
+    font-size: 1.2rem;
+    
+}
+.formulario button{
+    border-radius: 5px;
+    font-size: 1.2rem;
+    width: 110px;
+}
+
+a{
+text-decoration: none;
+display:flex;
+color: white;
+margin-left: 22rem;
+
+}
+a:hover{
+    color:rgba(4, 54, 99, 0.829);
+}
+.btn:hover{
+    color:white;
+    background-color:rgba(4, 54, 99, 0.829) ;
+}

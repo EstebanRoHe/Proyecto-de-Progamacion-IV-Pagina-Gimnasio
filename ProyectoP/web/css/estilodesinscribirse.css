@@ -1,0 +1,217 @@
+.principal{
+    background-color: rgba(226, 183, 43, 0);
+    height: 10rem;
+}
+.m{
+    position: fixed;
+}
+form{
+    margin: 0 35% 0 35%;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 1rem  2rem;
+    font-size: 1.3rem;
+    background-color:rgba(14, 35, 54, 0.459);
+    color: rgb(181, 182, 184);
+}
+form textarea{
+    font-size: 1.2rem;
+    height: 11rem;
+    width: 22rem;
+    background-color: #545963cc;
+    border: 1.5px solid black; 
+    resize: none;
+}
+form input ,select{
+    font-size: 1.1rem;
+    background-color: #545963cc;
+    border: 1.5px solid black;
+}
+
+.principal nav ul{
+    
+    padding: 0rem;
+    margin: 0;
+   
+    
+    }
+.principal nav li{
+    
+    border: 0px solid red;
+    margin: 0.5rem;
+    text-align: center;
+    display: inline-block;
+    width: 8rem;
+    }
+
+  
+.principal nav a{
+text-decoration: none;/*quita el estilo del enlace, subrayado*/
+font-size: 1.5rem;
+color: #a9abb1;
+border: 0px solid rgb(0, 0, 0);
+display: block;
+padding: 0.5rem;
+font-weight: bold;
+
+}
+nav a:hover{
+color: #505666;
+
+}
+
+nav ul{
+position: absolute;
+}
+.servicios ul li {
+ list-style: none;
+ float: left;
+
+}
+.servicios ul li a {
+    display: block;
+    text-decoration: none;
+
+   }
+.servicios ul{
+    display: none;
+    
+}   
+
+nav li:hover > ul {
+   display: block;
+}
+
+.primero{
+    background-color: aqua;
+
+}
+nav ul{
+position: absolute;
+}
+.servicios ul li {
+ list-style: none;
+ float: left;
+
+}
+.servicios ul li a {
+    display: block;
+    text-decoration: none;
+
+   }
+.servicios ul{
+    display: none;
+    
+}   
+
+nav li:hover > ul {
+   display: block;
+}
+
+button{
+    margin: 1rem 12rem;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+button:hover{
+    background-color:#041a499a;
+    color: white;
+}
+
+
+
+.login{
+    border: 0px solid blue;
+    margin-left: 90%;
+    position: fixed;
+    list-style: none;
+    margin-top: 0.8rem;
+}
+
+.login li{
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: #272B36;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+    font-weight: bold;  
+}
+
+.login2 ul a {
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: #c1c1c1;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+    font-weight: bold;  
+    display: block;
+    text-decoration: none;
+    border: 0px solid yellow;
+    background: none;
+}
+.login2 ul button{
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: #c1c1c1;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+   
+    display: block;
+    text-decoration: none;
+    border: 0px solid yellow;
+    background: none;
+}
+
+.btnlogin{
+
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 3px solid #041a49;
+    background-color: rgba(4, 54, 99, 0.829);
+    border-radius: 10px;
+    color: #a9abb1;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.login2 a:last-child:hover{
+   color: #414141;
+}
+
+.login2 button:hover{
+    cursor: pointer;
+    color: #414141;
+}
+
+
+.login ul{
+    position: absolute;
+}
+.login2 ul li {
+    list-style: none;
+    float: left;
+}
+
+.login2 ul{
+    display: none; 
+}   
+
+.login2 li{
+    margin-left: -3rem;
+}   
+
+.login li:hover > ul {
+    display: block;
+}
+
+
+.formulario{
+    width: 120rem;
+}

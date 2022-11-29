@@ -1,0 +1,216 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 jun. 2022, 01:50:20
+    Author     : Esteban
+*/
+
+body{
+    margin: 0%;
+}
+.primero{
+    border: 0.01px solid rgba(240, 248, 255, 0);
+    margin-bottom: 5rem;
+}
+.m{
+    position: fixed;
+}
+.principal nav ul{
+
+    padding: 0rem;
+    margin: 0;
+
+
+}
+.principal nav li{
+
+    border: 0px solid red;
+    margin: 0.5rem;
+    text-align: center;
+    display: inline-block;
+    width: 8rem;
+}
+
+
+.principal nav a{
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: white;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+    font-weight: bold;
+
+}
+nav a:hover{
+    color: #a9abb1;
+}
+
+nav ul{
+    position: absolute;
+}
+.servicios ul li {
+    list-style: none;
+    float: left;
+
+}
+.servicios ul li a {
+    display: block;
+    text-decoration: none;
+
+}
+.servicios ul{
+    display: none;
+
+}
+
+nav li:hover > ul {
+    display: block;
+}
+
+
+
+
+.login{
+    border: 0px solid blue;
+    margin-left: 90%;
+    position: fixed;
+    list-style: none;
+    margin-top: 0.8rem;
+}
+
+.login li{
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: #272B36;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+    font-weight: bold;  
+}
+
+.login2 ul a {
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: #c1c1c1;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+    font-weight: bold;  
+    display: block;
+    text-decoration: none;
+    border: 0px solid yellow;
+    background: none;
+}
+.login2 ul button{
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: #c1c1c1;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+   
+    display: block;
+    text-decoration: none;
+    border: 0px solid yellow;
+    background: none;
+}
+
+.btnlogin{
+
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 3px solid #041a49;
+    background-color: rgba(4, 54, 99, 0.829);
+    border-radius: 10px;
+    color: #a9abb1;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.login2 a:last-child:hover{
+   color: #414141;
+}
+
+.login2 button:hover{
+    cursor: pointer;
+    color: #414141;
+}
+
+
+.login ul{
+    position: absolute;
+}
+.login2 ul li {
+    list-style: none;
+    float: left;
+}
+
+.login2 ul{
+    display: none; 
+}   
+
+.login2 li{
+    margin-left: -3rem;
+}   
+
+.login li:hover > ul {
+    display: block;
+}
+
+.login2 button{
+     margin-left: -1.5rem;
+    
+}
+
+
+
+.segundo{
+    text-align: center;
+    color:white;
+}
+.divCursos{
+    margin:auto;
+    padding: 4rem;
+    text-align: center;
+    margin: 1.5% 0% 1.5% 30%;
+}
+
+.cursos{
+    color: white;
+    width: 40rem;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+
+
+}
+.cursos h1{
+    margin: auto;
+    margin-top: 2.7rem;
+}
+table{
+    margin: auto;
+    font-weight: bold;
+    padding: 2rem 4rem 1rem 4rem;
+    font-size: 1.5rem;
+    margin-left: 18rem;
+    margin-top: -13rem;
+    
+
+}
+table  td{
+    margin: auto;
+    padding-bottom: 1rem;
+}
+.ima{
+    margin-right: 20rem;
+    margin-top: 2rem;
+    border-radius: 6.5px;
+    border: 1px solid black;
+}
+
+
+

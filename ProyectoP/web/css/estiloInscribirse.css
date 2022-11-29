@@ -1,0 +1,216 @@
+body{
+    margin:0%;
+}
+
+.primero{
+    border: 0.01px solid rgba(238, 130, 238, 0) ;
+}
+.m{
+    position: fixed;
+}
+
+.principal nav ul{
+    
+    padding: 0rem;
+    margin: 0;
+   
+    
+    }
+.principal nav li{
+    
+    border: 0px solid red;
+    margin: 0.5rem;
+    text-align: center;
+    display: inline-block;
+    width: 8rem;
+    }
+
+  
+.principal nav a{
+text-decoration: none;/*quita el estilo del enlace, subrayado*/
+font-size: 1.5rem;
+color: #c1c1c1;   /*color: #a9abb1;*/
+border: 0px solid rgb(0, 0, 0);
+display: block;
+padding: 0.5rem;
+font-weight: bold;
+
+}
+nav a:hover{
+color: #505666;
+}
+
+nav ul{
+position: absolute;
+}
+.servicios ul li {
+ list-style: none;
+ float: left;
+
+}
+.servicios ul li a {
+    display: block;
+    text-decoration: none;
+
+   }
+.servicios ul{
+    display: none;
+    
+}   
+
+nav li:hover > ul {
+   display: block;
+}
+
+
+
+.login{
+    border: 0px solid blue;
+    margin-left: 90%;
+    position: fixed;
+    list-style: none;
+    margin-top: 0.8rem;
+}
+
+.login li{
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: #272B36;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+    font-weight: bold;  
+}
+
+.login2 ul a {
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: #c1c1c1;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+    font-weight: bold;  
+    display: block;
+    text-decoration: none;
+    border: 0px solid yellow;
+    background: none;
+}
+.login2 ul button{
+    text-decoration: none;/*quita el estilo del enlace, subrayado*/
+    font-size: 1.5rem;
+    color: #c1c1c1;
+    border: 0px solid rgb(0, 0, 0);
+    display: block;
+    padding: 0.5rem;
+   
+    display: block;
+    text-decoration: none;
+    border: 0px solid yellow;
+    background: none;
+}
+
+.btnlogin{
+
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 3px solid #041a49;
+    background-color: rgba(4, 54, 99, 0.829);
+    border-radius: 10px;
+    color: #a9abb1;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.login2 a:last-child:hover{
+   color: #414141;
+}
+
+.login2 button:hover{
+    cursor: pointer;
+    color: #414141;
+}
+
+
+.login ul{
+    position: absolute;
+}
+.login2 ul li {
+    list-style: none;
+    float: left;
+}
+
+.login2 ul{
+    display: none; 
+}   
+
+.login2 li{
+    margin-left: -3rem;
+}   
+
+.login2 button{
+     margin-left: 0rem;
+}
+
+.login li:hover > ul {
+    display: block;
+}
+
+.login2 button{
+     margin-left: 0rem;
+    
+}
+
+
+
+
+.segundo{
+    margin: 4rem 0rem 0rem 0rem;
+    background-color:rgba(70, 131, 180, 0);
+    text-align: center;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.712);
+}
+.tercero{
+    display: flex;
+    margin: 0rem 10rem 0rem 10rem;
+    justify-content: space-between;
+  
+}
+.agregarRS{
+    font-size: 1.5rem;
+    background-color: rgba(249, 255, 255, 0.432);
+    width: 35rem;
+    padding: 2rem 2rem 2rem 8rem;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+.agregarRS input,select{
+    font-size: 1rem;
+    
+}
+.agregarCT{
+    font-size: 1.5rem;
+    background-color: rgba(119, 94, 13, 0.514);
+    width: 35rem;
+    padding:2rem 2rem 2rem 8rem;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+
+.agregarCT input, select{
+    font-size: 1rem;
+}
+
+button{
+    margin: 1rem 12rem;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+button:hover{
+    color:white;
+   
+    background-color: rgba(1, 25, 77, 0.466);
+}
